@@ -22,6 +22,8 @@ public class Assertion
 		//count the checkbox
 		System.out.println(driver.findElements(By.xpath("//input[@type='checkbox']")).size());
 		System.out.println("first git practice");
+		System.out.println("second git practice");
+		System.out.println("Third git practice");
 		
 	}
 }
