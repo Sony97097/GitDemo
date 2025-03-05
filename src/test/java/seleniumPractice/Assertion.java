@@ -21,6 +21,7 @@ public class Assertion
 		System.out.println(driver.findElement(By.xpath("//input[@id='ctl00_mainContent_chk_friendsandfamily']")).isSelected());	
 		//count the checkbox
 		System.out.println(driver.findElements(By.xpath("//input[@type='checkbox']")).size());
+		System.out.println("first git practice");
 		
 	}
 }
