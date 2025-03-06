@@ -34,6 +34,7 @@ public static void main(String[] args) {
 
 	driver.findElement(By.id("username")).sendKeys(emailId);
 	System.out.println("branch created");
+	System.out.println("branch created");
 	}
 	}
 
