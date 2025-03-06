@@ -33,6 +33,7 @@ public static void main(String[] args) {
 	driver.switchTo().window(parentId);
 
 	driver.findElement(By.id("username")).sendKeys(emailId);
+	System.out.println("branch created");
 	}
 	}
 
